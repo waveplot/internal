@@ -82,7 +82,7 @@ def changes():
 
     results = mc.get('changes_data')
     if results is None:
-        results = db.session.query(Edit).order_by(Edit.time.desc()).limit(10).all()
+        results = db.session.query(Edit).order_by(Edit.time.desc()).limit(4).all()
 
         results = {
             'objects': [
