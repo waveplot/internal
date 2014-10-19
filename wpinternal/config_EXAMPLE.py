@@ -17,6 +17,7 @@ SERVER = 'http://waveplot.net'
 
 GMAIL = {
     'username': '',
-    'password': ''
+    'password': '',
+    'sender': ''
 }
 

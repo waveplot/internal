@@ -80,7 +80,7 @@ def register():
 
     activation_link = SERVER + '/activate/{}'.format(new_editor.key)
     msg = Message("Welcome to WavePlot!", recipients=[email],
-                  sender=GMAIL['username'])
+                  sender=GMAIL['sender'])
     msg.html = (
         '<p>Hi {}!</p>'
         '<p>Please activate your WavePlot account using the activation link below:</p>'
