@@ -1,0 +1,7 @@
+flask
+flask-sqlalchemy
+sqlalchemy
+psycopg2
+python-memcached
+twitter
+Flask-Mail
